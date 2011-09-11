@@ -1,4 +1,4 @@
-all:
+all: pull
 	planet config/config.ini
 
 pull:
