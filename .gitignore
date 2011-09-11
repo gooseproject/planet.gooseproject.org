@@ -1,2 +1,3 @@
 cache
-siteroot
+siteroot/*.xml
+siteroot/*.html
