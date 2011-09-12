@@ -1,3 +1,4 @@
 cache
 siteroot/*.xml
 siteroot/*.html
+logs/
