@@ -53,7 +53,7 @@ Adding yourself to the planet
 Get To Blogging
 ---------------
 
-Wondering what to blog about? Good! we have a great list of blog topics_. 
+Wondering what to blog about? Good! we have a great list of blog topics.  
 
-:: _topics: https://github.com/gooseproject/gooseproject-main/wiki/blog_topics
+* https://github.com/gooseproject/gooseproject-main/wiki/blog_topics
 
