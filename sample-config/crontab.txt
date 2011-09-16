@@ -1,0 +1,2 @@
+#min hour doM month doW command and args
+0 */2 * * * cd /srv/www/html/planet.gooseproject.org && make
