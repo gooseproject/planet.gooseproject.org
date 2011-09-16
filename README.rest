@@ -1,15 +1,6 @@
 GoOSe Project Planet Configuration
 ==================================
 
-Installation
-------------
-
-* git clone into /srv/www/html/<yourfolder>
-
-* copy and edit apache config into /etc/httpd/conf.d/planet
-
-* optionally edit crontab like sample-config/crontab.txt
-
 Planet Policies
 ---------------
 
@@ -23,31 +14,31 @@ Adding yourself to the planet
 -----------------------------
 
 * fork on github
-
 * git clone your fork
 
-* add a stanza like this to the bottom of config/config.ini
+* add your hackergotchi:
 
-  ::
+  * copy a png file to siteroot/images/faces/ which matches your filename above
+  * should be 65x85 pixels
+  * facing left looks best (towards your blog)
+
+- or -
+
+add your gravatar:
+
+  * visit http://en.gravatar.com/site/implement/hash/ and generate your hash
+  * replace the 'face =' line with your gravatar hash value in the config/config.ini
+
+* add a stanza like this to the bottom of config/config.ini::
+
   	# goozbach
   	http://feeds.feedburner.com/GoozbachsTechTips-gooseproject-atom]
   	name = Derek Carter
-  	face = faces/goozbach.png
-
-* add a hackergotchi to siteroot/images/faces/ which matches your filename above
-
-  * should be png.
-
-  * should be 65x85 pixels
-
-  * facing left looks best (towards your blog)
+  	face = faces/goozbach.png [or] gravatar = 85203b21c562062e5641f0b8d4b98d9b
   
 * git ci and git push
-
 * submit pull request
-
 * sit back and wait for pull request to be merged
-
 * cronjob on planet.gooseproject.org will automaticly pull in your change once the main repo contains it.
 
 Get To Blogging
@@ -56,4 +47,13 @@ Get To Blogging
 Wondering what to blog about? Good! we have a great list of blog topics_. 
 
 :: _topics: https://github.com/gooseproject/gooseproject-main/wiki/blog_topics
+
+Installation
+------------
+To build your own planet from this configuration, here are some quick and dirty instructions.
+
+* git clone into /srv/www/html/<yourfolder>
+* copy and edit apache config into /etc/httpd/conf.d/planet
+* optionally edit crontab like sample-config/crontab.txt
+
 
