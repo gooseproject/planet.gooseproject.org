@@ -22,9 +22,9 @@ Adding yourself to the planet
   * should be 65x85 pixels
   * facing left looks best (towards your blog)
 
-- or -
+or -
 
-add your gravatar:
+* add your gravatar:
 
   * visit http://en.gravatar.com/site/implement/hash/ and generate your hash
   * replace the 'face =' line with your gravatar hash value in the config/config.ini
