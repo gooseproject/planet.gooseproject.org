@@ -28,10 +28,11 @@ Adding yourself to the planet
 
 * add a stanza like this to the bottom of config/config.ini
 
-    # goozbach
-    http://feeds.feedburner.com/GoozbachsTechTips-gooseproject-atom]
-    name = Derek Carter
-    face = faces/goozbach.png
+  ::
+  	# goozbach
+  	http://feeds.feedburner.com/GoozbachsTechTips-gooseproject-atom]
+  	name = Derek Carter
+  	face = faces/goozbach.png
 
 * add a hackergotchi to siteroot/images/faces/ which matches your filename above
 
