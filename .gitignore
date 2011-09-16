@@ -3,3 +3,4 @@ siteroot/*.xml
 siteroot/*.html
 logs/
 *.tmplc
+.*sw*
