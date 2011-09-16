@@ -28,10 +28,10 @@ Adding yourself to the planet
 
 * add a stanza like this to the bottom of config/config.ini
 
-  ># goozbach
-  >[http://feeds.feedburner.com/GoozbachsTechTips-gooseproject-atom]
-  >name = Derek Carter
-  >face = faces/goozbach.png
+    # goozbach
+    http://feeds.feedburner.com/GoozbachsTechTips-gooseproject-atom]
+    name = Derek Carter
+    face = faces/goozbach.png
 
 * add a hackergotchi to siteroot/images/faces/ which matches your filename above
 
@@ -52,5 +52,7 @@ Adding yourself to the planet
 Get To Blogging
 ---------------
 
-Wondering what to blog about? Good! we have a great list of blog topics [here](https://github.com/gooseproject/gooseproject-main/wiki/blog_topics).
+Wondering what to blog about? Good! we have a great list of blog topics_. 
+
+:: _topics: https://github.com/gooseproject/gooseproject-main/wiki/blog_topics
 
