@@ -1,0 +1,56 @@
+GoOSe Project Planet Configuration
+==================================
+
+Installation
+------------
+
+* git clone into /srv/www/html/<yourfolder>
+
+* copy and edit apache config into /etc/httpd/conf.d/planet
+
+* optionally edit crontab like sample-config/crontab.txt
+
+Planet Policies
+---------------
+
+* planet feeds should be directly releated to GoOSe topics (troublesome pkgs, tasks, announcements, etc)
+
+  * this means you need to either only blog about GoOSe releated topics or export a goose category feed which contains only GoOSe releated items
+
+* *ANYONE* can join the planet if they meet the above requirements.
+
+Adding yourself to the planet
+-----------------------------
+
+* fork on github
+
+* git clone your fork
+
+* add a stanza like this to the bottom of config/config.ini
+
+  ># goozbach
+  >[http://feeds.feedburner.com/GoozbachsTechTips-gooseproject-atom]
+  >name = Derek Carter
+  >face = faces/goozbach.png
+
+* add a hackergotchi to siteroot/images/faces/ which matches your filename above
+
+  * should be png.
+
+  * should be 65x85 pixels
+
+  * facing left looks best (towards your blog)
+  
+* git ci and git push
+
+* submit pull request
+
+* sit back and wait for pull request to be merged
+
+* cronjob on planet.gooseproject.org will automaticly pull in your change once the main repo contains it.
+
+Get To Blogging
+---------------
+
+Wondering what to blog about? Good! we have a great list of blog topics [here](https://github.com/gooseproject/gooseproject-main/wiki/blog_topics).
+
